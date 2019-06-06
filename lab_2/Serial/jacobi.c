@@ -31,7 +31,7 @@ int main(int argc, char *argv[])
 
   gen_laplace_mat(n, &diag, &l_upper, &l_lower, &u_upper, &u_lower);
 
-  diag_size = n * n;
+  diag_size = n * n
   mid_size = n * n - 1;
   short_size = n * n - n;
 
